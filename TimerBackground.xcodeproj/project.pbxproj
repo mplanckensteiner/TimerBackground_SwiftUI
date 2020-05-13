@@ -13,6 +13,8 @@
 		1A869C93246AD73E00AB7D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A869C92246AD73E00AB7D78 /* Assets.xcassets */; };
 		1A869C96246AD73E00AB7D78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A869C95246AD73E00AB7D78 /* Preview Assets.xcassets */; };
 		1A869C99246AD73E00AB7D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A869C97246AD73E00AB7D78 /* LaunchScreen.storyboard */; };
+		1AFE4568246BFFF900814E5A /* NotificationPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE4567246BFFF900814E5A /* NotificationPublisher.swift */; };
+		1AFE456A246C079800814E5A /* AlarmSound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1AFE4569246C079800814E5A /* AlarmSound1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1A869C95246AD73E00AB7D78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A869C98246AD73E00AB7D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A869C9A246AD73E00AB7D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFE4567246BFFF900814E5A /* NotificationPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPublisher.swift; sourceTree = "<group>"; };
+		1AFE4569246C079800814E5A /* AlarmSound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AlarmSound1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				1A869C8C246AD73D00AB7D78 /* AppDelegate.swift */,
 				1A869C8E246AD73D00AB7D78 /* SceneDelegate.swift */,
 				1A869C90246AD73D00AB7D78 /* ContentView.swift */,
+				1AFE4567246BFFF900814E5A /* NotificationPublisher.swift */,
 				1A869C92246AD73E00AB7D78 /* Assets.xcassets */,
+				1AFE4569246C079800814E5A /* AlarmSound1.wav */,
 				1A869C97246AD73E00AB7D78 /* LaunchScreen.storyboard */,
 				1A869C9A246AD73E00AB7D78 /* Info.plist */,
 				1A869C94246AD73E00AB7D78 /* Preview Content */,
@@ -135,6 +141,7 @@
 			files = (
 				1A869C99246AD73E00AB7D78 /* LaunchScreen.storyboard in Resources */,
 				1A869C96246AD73E00AB7D78 /* Preview Assets.xcassets in Resources */,
+				1AFE456A246C079800814E5A /* AlarmSound1.wav in Resources */,
 				1A869C93246AD73E00AB7D78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 				1A869C8D246AD73D00AB7D78 /* AppDelegate.swift in Sources */,
 				1A869C8F246AD73D00AB7D78 /* SceneDelegate.swift in Sources */,
 				1A869C91246AD73D00AB7D78 /* ContentView.swift in Sources */,
+				1AFE4568246BFFF900814E5A /* NotificationPublisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TimerBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TimerBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelplanckensteiner.TimerBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TimerBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TimerBackground/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.miguelplanckensteiner.TimerBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
